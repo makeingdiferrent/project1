@@ -5,10 +5,12 @@ pipeline {
         stage("checkout") {
             steps {
                 echo 'Hello World checkout'
+                }
             }
         stage("build") {
             steps {
                 echo 'Hello World build'
+                }
             }
         stage("test") {
             steps {
@@ -16,5 +18,4 @@ pipeline {
             }
         }
     }
-}
 }
